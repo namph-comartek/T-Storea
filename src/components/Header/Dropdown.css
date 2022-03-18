@@ -1,10 +1,11 @@
 .dropdown-menu {
-    background: red;
     width: 200px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
+    display: block;
+    z-index: 99999;
 }
 
 .dropdown-menu li {
@@ -12,9 +13,10 @@
     cursor: pointer;
 }
 
-.dropdown-menu li:hover {
+
+/* .dropdown-menu li:hover {
     background: #5cabff;
-}
+} */
 
 .dropdown-menu.clicked {
     display: none;

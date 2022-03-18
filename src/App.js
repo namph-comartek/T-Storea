@@ -30,6 +30,7 @@ function App() {
         <Route path='/xiaomi' component={Xiaomi} />
         
       </Switch>
+      
     </Router>
   );
 }
